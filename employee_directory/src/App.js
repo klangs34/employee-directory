@@ -8,10 +8,9 @@ import axios from 'axios';
 class App extends Component {
   state = {
     sortBy: "",
-    employees: {
-      results: []
-    },
-    search: ""
+    results: [],
+    search: "",
+    filteredResults: []
   }
 
   handleSortBy = (event) => {
@@ -24,25 +23,25 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://randomuser.me/api/?results=200&nat=us')
+    axios.get('https://jsonplaceholder.typicode.com/users')
       .then(res => {
-        //console.log(res.data)
-        this.setState({ employees: res.data })
+        this.setState({ results: res.data, filteredResults: res.data })
       })
   }
 
   handleFilter = searchingData => {
-    const newResults = this.state.employees.results.filter(val => {
-      let filterName = val.name.first.toUpperCase();
+    const newResults = this.state.results.filter(val => {
+      let filterName = val.name.toUpperCase();
       let searchName = searchingData.toUpperCase();
-      return filterName === searchName;
+
+      return filterName.includes(searchName);
+
     });
-    console.log(newResults)
-    console.log(this.state.employees)
     if (newResults.length > 0) {
-      this.setState({ employees: { ...this.state.employees, results: newResults } })
+      this.setState({ filteredResults: newResults })
     } else {
       //show all
+      this.setState({ filteredResults: this.state.results })
     }
 
   }
@@ -53,14 +52,14 @@ class App extends Component {
     this.handleFilter(event.target.value);
   }
 
-
   render() {
+
     return (
       <div>
         <Jumbotron />
         <Search handleSearch={this.handleSearch} />
         <DirectoryHeader sort={this.handleSortBy} />
-        <Employees sortBy={this.state.sortBy} employees={this.state.employees} />
+        <Employees sortBy={this.state.sortBy} employees={this.state.filteredResults} />
       </div>
     );
   }

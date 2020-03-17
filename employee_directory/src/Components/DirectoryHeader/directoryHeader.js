@@ -4,8 +4,8 @@ const DirectoryHeader = ({ sort }) => {
     return (
         <div className="container mt-4 border-top">
             <div className="row">
-                <div className="col-1 font-weight-bold">
-                    Image
+                <div className="col-2 font-weight-bold">
+                    Username
                 </div>
                 <div className="col-3 font-weight-bold">
                     Name <img src="https://img.icons8.com/android/24/000000/sort.png" alt="sort" onClick={sort} />
@@ -17,7 +17,7 @@ const DirectoryHeader = ({ sort }) => {
                     Email
                 </div>
                 <div className="col-2 font-weight-bold">
-                    DOB
+                    Company
                 </div>
             </div>
 
