@@ -1,10 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<<<<<<< HEAD
 
 This app is ideal for the employer who needs routine access to employee information.  The site currently uses an available API to see the list of employees.  The list allows the user to sort and/or search by employee name.  
 
 [Employee Directory](public/EmployeeDirectoryDemo.gif)
 
+=======
+This app is ideal for the employer who needs routine access to employee information.  The site currently uses an available API to see the list of employees.  The list allows the user to sort and/or search by employee name.  
+
+>>>>>>> 7398c3164ff0f5891e7a8e277d17f68f9e820b2b
 ## User Story
 
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
