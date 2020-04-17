@@ -15,5 +15,4 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 
 ### Explore App
 
-Run the app in the development mode.<br />
 Open [https://polar-eyrie-76278.herokuapp.com/](https://polar-eyrie-76278.herokuapp.com/) to view it in the browser.
