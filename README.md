@@ -13,6 +13,20 @@ As a user, I want to be able to view my entire employee directory at once so tha
 ## Business Context
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
+## Technology
+This app uses Create-React-App along with the Axios library to create the user experience.
+
+## Installation
+1. Fork the respository
+1. Use git clone from the CLI to clone the remote repository
+1. Change the project to use your own employee listing
+   1. use git to save versions
+   1. push your own commit to your repository
+
+## A view of the completed App.js file
+
+![Code View](public/CodeView.gif)
+
 ### Explore App
 
 Open [https://polar-eyrie-76278.herokuapp.com/](https://polar-eyrie-76278.herokuapp.com/) to view it in the browser.
