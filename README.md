@@ -1,10 +1,10 @@
-## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Employee Directory
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This app is ideal for the employer who needs routine access to employee information.  The site currently uses an available API to see the list of employees.  The list allows the user to sort and/or search by employee name.  
 
-![Employee Directory](public/EmployeeDirectoryDemo.gif)
-
-This app is ideal for the employer who needs routine access to employee information.  The site currently uses an available API to see the list of employees.  The list allows the user to sort and/or search by employee name.  
+![Employee Directory](public/EmployeeDirectoryDemo.gif)  
 
 ## User Story
 
@@ -15,5 +15,5 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 
 ### Explore App
 
-Runs the app in the development mode.<br />
+Run the app in the development mode.<br />
 Open [https://polar-eyrie-76278.herokuapp.com/](https://polar-eyrie-76278.herokuapp.com/) to view it in the browser.
