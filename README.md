@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This app is ideal for the employer who needs routine access to employee information.  The site currently uses an available API to see the list of employees.  The list allows the user to sort and/or search by employee name.  
+This app is ideal for the employer who needs routine access to employee information.  The site currently uses an available API to seed the list of employees.  The list allows the user to sort and/or search by employee name.  
 
 ![Employee Directory](public/EmployeeDirectoryDemo.gif)  
 
