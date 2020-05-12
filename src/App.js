@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/users')
+    axios.get('https://jsonplaceholder.typicode.com/users')
       .then(res => {
         this.setState({ results: res.data, filteredResults: res.data })
       })
