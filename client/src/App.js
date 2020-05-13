@@ -25,7 +25,6 @@ class App extends Component {
   componentDidMount() {
     axios.get('api/get-employees')
       .then(res => {
-        console.log(res)
         this.setState({ results: res.data, filteredResults: res.data })
       })
   }

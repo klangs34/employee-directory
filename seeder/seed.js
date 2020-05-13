@@ -1,7 +1,7 @@
 let mongoose = require("mongoose");
 let db = require("../models");
 mongoose.connect( 
-  "mongodb://localhost:27017/employee-directory",
+  "mongodb://<dbuser>:<dbpassword>@ds225624.mlab.com:25624/heroku_fzc5wjwr",
   {
     //must be the same as in the server fie
     useNewUrlParser: true,
