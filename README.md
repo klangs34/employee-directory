@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This app is ideal for the employer who needs routine access to employee information.  The site uses a rest server to access a local database to store employee information.  The retrieved list allows the user to sort and/or search by employee name.  
 
-![Employee Directory](public/EmployeeDirectoryDemo.gif)  
+![Employee Directory](client/public/EmployeeDirectoryDemo.gif)  
 
 ## User Story
 
@@ -26,7 +26,7 @@ This app uses Create-React-App along with the Axios library to create the user e
 
 ## A view of the completed App.js file
 
-![Code View](public/CodeView.gif)
+![Code View](client/public/CodeView.gif)
 
 ### Explore App
 
