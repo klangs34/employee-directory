@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This app is ideal for the employer who needs routine access to employee information.  The site currently uses an available API to seed the list of employees.  The list allows the user to sort and/or search by employee name.  
+This app is ideal for the employer who needs routine access to employee information.  The site uses a rest server to access a local database to store employee information.  The retrieved list allows the user to sort and/or search by employee name.  
 
 ![Employee Directory](public/EmployeeDirectoryDemo.gif)  
 
@@ -19,6 +19,7 @@ This app uses Create-React-App along with the Axios library to create the user e
 ## Installation
 1. Fork the respository
 1. Use git clone from the CLI to clone the remote repository
+1. Run the npm install from the root directory
 1. Change the project to use your own employee listing
    1. use git to save versions
    1. push your own commit to your repository
