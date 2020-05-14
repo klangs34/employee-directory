@@ -17,8 +17,7 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 This app uses Create-React-App along with the Axios library to create the user experience.
 
 ## Installation
-1. Fork the respository
-1. Use git clone from the CLI to clone the remote repository
+1. Download repository or use git clone from the CLI to clone the remote repository
 1. Run the npm install from the root directory
 1. Change the project to use your own employee listing
    1. use git to save versions
